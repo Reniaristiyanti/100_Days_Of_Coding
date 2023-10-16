@@ -7,13 +7,13 @@ public class Day7 {
         //Menginput nama,umur dan jenis kelamin  menggunakan scanner
         Scanner sc = new Scanner(System.in);
         
-        String nama ;
+        String Nama ;
         int umur;
         char Jeniskelamin;
         
         System.out.print("Masukkan nama: ");
-        nama = sc.nextLine();
-        System.out.println("Nama saya adalah:" + nama);
+        Nama = sc.nextLine();
+        System.out.println("Nama saya adalah:" + Nama);
         System.out.print("Masukkan umur: ");
         umur = sc.nextInt();
         System.out.println("Umur saya adalah:" + umur + "Tahun");
