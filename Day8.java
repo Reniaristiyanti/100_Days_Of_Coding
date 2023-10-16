@@ -7,13 +7,13 @@ public class Day8 {
         //Menghitung keliling persegi
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Masukkan panjang: ");
-        int panjang = sc.nextInt();
+        System.out.print("Masukkan panjang: ");
+        int Panjang = sc.nextInt();
         
-        System.out.println("Masukkan lebar: ");
-        int lebar = sc.nextInt();
+        System.out.print("Masukkan lebar: ");
+        int Lebar = sc.nextInt();
         
-        int keliling = panjang+lebar+panjang+lebar;
+        int keliling = Panjang+Lebar+Panjang+Lebar;
         
         System.out.println("Keliling persegi adalah: " + keliling);
         
