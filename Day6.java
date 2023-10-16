@@ -4,7 +4,11 @@ public class Day6 {
     public static void main(String[] args) {
         // Variabel untuk menampung hari
         int hari = 5;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> cc47c6c2210d2fc500b1fcc616e8860a5504e34a
         if (hari == 1) {
             System.out.println("Hari ini adalah hari Senin");
         } else if (hari == 2) {
