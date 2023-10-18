@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Day9 {
     public static void main(String[] args) {
-        //Operator Penugasan
+        //Operator Penugasan Penjumlahan
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Masukkan angka pertama: ");
+        System.out.print("Masukkan angka pertama: ");
         int angkaPertama = sc.nextInt();
         
-        System.out.println("Masukkan angka kedua: ");
+        System.out.print("Masukkan angka kedua: ");
         int angkaKedua = sc.nextInt();
         
         angkaPertama += angkaKedua;
