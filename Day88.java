@@ -16,10 +16,10 @@ public class Day88 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan bilangan: ");
-        int bilangan = scanner.nextInt();
+        int bilangan = sc.nextInt();
 
         if (cekPrima(bilangan)) {
             System.out.printf("Bilangan %d adalah bilangan prima.%n", bilangan);
